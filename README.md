@@ -76,10 +76,3 @@ To enable presenter mode, add `presentme=true` to the URL: [http://localhost:800
 To disable presenter mode, hit [http://localhost:8000/template.html?presentme=false](http://localhost:8000/template.html?presentme=false)
 
 Presenter mode is sticky, so refreshing the page will persist your settings.
-
----
-
-That's all she wrote!
-=======
-# chapter3Presentation
->>>>>>> 58f13cfdb0f5f20e6e83fc882eba32c9b3e7a734
