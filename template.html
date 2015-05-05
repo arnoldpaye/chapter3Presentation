@@ -41,16 +41,6 @@ URL: https://code.google.com/p/io-2012-slides
       <h2>The Component model</h2>
     </hgroup>
     <article>
-      <ul>
-        <li>Titles are formatted as Open Sans with bold applied and font size is set at 45</li>
-        <li>Title capitalization is title case
-          <ul>
-            <li>Subtitle capitalization is title case</li>
-          </ul>
-        </li>
-        <li>Subtitle capitalization is title case</li>
-        <li>Titles and subtitles should never have a period at the end</li>
-      </ul>
     </article>
   </slide>
 
@@ -78,92 +68,83 @@ URL: https://code.google.com/p/io-2012-slides
       <h3>Component rendering</h3>
     </hgroup>
     <article>
-      <p>A list where items build:</p>
-      <ul class="build">
-        <li>Pressing 'h' highlights code snippets</li>
-        <li>Pressing 'p' toggles speaker notes (if they're on the current slide)</li>
-        <li>Pressing 'f' toggles fullscreen viewing</li>
-        <li>Pressing 'w' toggles widescreen</li>
-        <li>Pressing 'o' toggles overview mode</li>
-        <li>Pressing 'ESC' toggles off these goodies</li>
-      </ul>
-      <p>Another list, but items fade as they build:</p>
-      <ul class="build fade">
-        <li>Hover over me!</li>
-        <li>Hover over me!</li>
-        <li>Hover over me!</li>
-      </ul>
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>Slide with (Smaller Font)</h2>
-    </hgroup>
-    <article class="smaller">
-      <ul>
-        <li>All <a href="http://google.com">links</a> open in new tabs.</li>
-        <li>To change that this, add <code>target="_self"</code> to the link.</li>
-      </ul>
-    </article>
-  </slide>
-
-  <slide hidden>
-    Hidden slides are left out of the presentation.
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Code Slide (with Subtitle Placeholder)</h2>
-      <h3>Subtitle Placeholder</h3>
+      <h2>The component life cycle</h2>
     </hgroup>
     <article>
-      <p>Press 'h' to highlight important sections of code (wrapped in <code>&lt;b&gt;</code>).</p>
-      <pre class="prettyprint" data-lang="javascript">
-&lt;script type='text/javascript'&gt;
-  // Say hello world until the user starts questioning
-  // the meaningfulness of their existence.
-  function helloWorld(world) {
-    <b>for (var i = 42; --i &gt;= 0;) {
-      alert('Hello ' + String(world));
-    }</b>
-  }
-&lt;/script&gt;
-</pre>
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>Code Slide (Smaller Font)</h2>
+      <h2>The component life cycle</h2>
+      <h3>Initialization</h3>
     </hgroup>
-    <article class="smaller">
-      <pre class="prettyprint" data-lang="javascript">
-// Say hello world until the user starts questioning
-// the meaningfulness of their existence.
-function helloWorld(world) {
-  for (var i = 42; --i &gt;= 0;) {
-    alert('Hello ' + String(world));
-  }
-}
-</pre>
-<pre class="prettyprint" data-lang="css">
-&lt;style&gt;
-  p { color: pink }
-  b { color: blue }
-&lt;/style&gt;
-</pre>
-<pre class="prettyprint" data-lang="html">
-&lt;!DOCTYPE html>
-&lt;html>
-&lt;head>
-  &lt;title>My Awesome Page&lt;/title>
-&lt;/head>
-&lt;body>
-  &lt;p&gt;Hello world&lt;/p&gt;
-&lt;body>
-&lt;/html>
-</pre>
+    <article>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>The component life cycle</h2>
+      <h3>Render</h3>
+    </hgroup>
+    <article>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>The component life cycle</h2>
+      <h3>Destruction</h3>
+    </hgroup>
+    <article>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Containers</h2>
+    </hgroup>
+    <article>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Containers</h2>
+      <h3>Building a container with child items</h3>
+    </hgroup>
+    <article>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Containers</h2>
+      <h3>Dealing with children</h3>
+    </hgroup>
+    <article>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Querying for components</h2>
+    </hgroup>
+    <article>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>The viewport container</h2>
+    </hgroup>
+    <article>
     </article>
   </slide>
 
@@ -386,24 +367,7 @@ function helloWorld(world) {
       <iframe data-src="http://www.google.com/doodle4google/resources/history.html"></iframe>
     </article>
   </slide>
-
-  <slide class="thank-you-slide segue nobackground">
-    <aside class="gdbar right"><img src="images/google_developers_icon_128.png"></aside>
-    <article class="flexbox vleft auto-fadein">
-      <h2>&lt;Thank You!&gt;</h2>
-      <p>Important contact information goes here.</p>
-    </article>
-    <p class="auto-fadein" data-config-contact>
-      <!-- populated from slide_config.json -->
-    </p>
-  </slide>
-
-  <slide class="logoslide dark nobackground">
-    <article class="flexbox vcenter">
-      <span><img src="images/google_developers_logo_white.png"></span>
-    </article>
-  </slide>
-
+  
   <slide class="backdrop"></slide>
 
 </slides>
