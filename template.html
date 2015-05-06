@@ -161,6 +161,21 @@ URL: https://code.google.com/p/io-2012-slides
       <h3>Dealing with children</h3>
     </hgroup>
     <article>
+      <pre class="prettyprint" data-lang="javascript">
+        // Add child
+        Ext.getCmp('myWin').add({
+          title: 'Appended Panel',
+          id: 'addedPanel',
+          html: 'Hello there!'
+        });
+        
+        // Insert child
+        Ext.getCmp('myWin').insert(1, {
+            title: 'Inserted Panel',
+            id: 'insertedpanel',
+            html: 'It is cool here!'
+        });
+      </pre>
     </article>
   </slide>
   
@@ -169,6 +184,9 @@ URL: https://code.google.com/p/io-2012-slides
       <h2>Querying for components</h2>
     </hgroup>
     <article>
+      <p>
+        <a href="http://extjsinaction.com/v4/examples/ch03/using_ComponentQuery.html">Component Queries</a>
+      </p>
     </article>
   </slide>
   
