@@ -133,6 +133,25 @@ URL: https://code.google.com/p/io-2012-slides
       <h3>Building a container with child items</h3>
     </hgroup>
     <article>
+      <pre class="prettyprint" data-lang="javascript">
+          var panel1 = {
+            id: 'panel1',
+            ...
+          };
+          var panel2 = {
+            id: 'panel2',
+            ...
+          };
+        
+          var myWin = Ext.create('Ext.window.Window', {
+              id: 'myWin',
+              items: [
+                  panel1,
+                  panel2
+              ],
+              ...
+          });
+      </pre>
     </article>
   </slide>
   
