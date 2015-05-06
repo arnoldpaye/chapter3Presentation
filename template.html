@@ -124,6 +124,7 @@ URL: https://code.google.com/p/io-2012-slides
       <h2>Containers</h2>
     </hgroup>
     <article>
+      A container is a component which has children.
     </article>
   </slide>
   
@@ -168,13 +169,16 @@ URL: https://code.google.com/p/io-2012-slides
           id: 'addedPanel',
           html: 'Hello there!'
         });
-        
         // Insert child
         Ext.getCmp('myWin').insert(1, {
             title: 'Inserted Panel',
             id: 'insertedpanel',
             html: 'It is cool here!'
         });
+        // Remove child
+        var panel = Ext.getCmp('insertedPanel');
+        Ext.getCmp('myWin').remove(panel, false);
+        Ext.getCmp('otherParent').add(panel);
       </pre>
     </article>
   </slide>
