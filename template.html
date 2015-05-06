@@ -186,6 +186,15 @@ URL: https://code.google.com/p/io-2012-slides
     <article>
       <p>
         <a href="http://extjsinaction.com/v4/examples/ch03/using_ComponentQuery.html">Component Queries</a>
+          <pre class="prettyprint" data-lang="javascript">
+            var results = Ext.ComponentQuery.query('#master_panel');
+            var panel = results[0];
+            panel.body.fadeOut().fadeIn();
+            
+            var panel = Ext.ComponentQuery.query('#master_panel')[0];
+            
+            var panel = Ext.ComponentQuery.query('#p2_c3')[0];
+          </pre>
       </p>
     </article>
   </slide>
