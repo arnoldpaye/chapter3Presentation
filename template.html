@@ -69,6 +69,17 @@ URL: https://code.google.com/p/io-2012-slides
       <h3>Component rendering</h3>
     </hgroup>
     <article>
+       <pre class="prettyprint" data-lang="javascript">
+          Ext.onReady(function () {
+            var myPanel = Ext.create('Ext.panel.Panel', {
+              renderTo  : document.body,
+              height    : 50,
+              width     : 150,
+              title     : 'Panel rendered inmediately',
+              frame     : true
+            });
+          });
+      </pre>
     </article>
   </slide>
 
