@@ -177,6 +177,27 @@ URL: https://code.google.com/p/io-2012-slides
       <h2>The viewport container</h2>
     </hgroup>
     <article>
+      <pre class="prettyprint" data-lang="javascript">
+          Ext.create('Ext.container.Viewport', {
+              layout: 'border',
+              items: [
+                  {
+                      height: 75,
+                      region: 'north',
+                      title: 'Does Santa live here?'
+                  },
+                  {
+                      width: 150,
+                      region: 'west',
+                      title: 'The west region rules'
+                  },
+                  {
+                      region: 'center',
+                      title: 'No, this region rules!'
+                  }
+              ]
+          });
+      </pre>
     </article>
   </slide>
 
